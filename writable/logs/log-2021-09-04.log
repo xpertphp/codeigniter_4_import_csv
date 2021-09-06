@@ -1,0 +1,125 @@
+CRITICAL - 2021-09-04 00:14:21 --> syntax error, unexpected 'image' (T_STRING), expecting ',' or ';'
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('list', Array, true)
+#2 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(24): view('list', Array)
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-04 00:15:13 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('list', Array, true)
+#2 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(24): view('list', Array)
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-09-04 06:13:31 --> file_put_contents(images/1630754010.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307540...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:13:53 --> file_put_contents(images/1630754033.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307540...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:16:35 --> file_put_contents(images/1630754195.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307541...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:17:02 --> file_put_contents(images/1630754222.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307542...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:22:54 --> Use of undefined constant _POST - assumed '_POST' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 21, Array)
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 06:23:56 --> file_put_contents(images/1630754636.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307546...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:24:38 --> file_put_contents(images/1630754678.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307546...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 06:26:40 --> file_put_contents(images/1630754800.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307548...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 07:05:20 --> syntax error, unexpected 'helper' (T_STRING)
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 07:06:11 --> syntax error, unexpected '<', expecting end of file
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-04 07:06:53 --> file_put_contents(images/1630757213.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307572...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-09-04 07:07:28 --> file_put_contents(images/1630757248.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(30): file_put_contents('images/16307572...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->store()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}

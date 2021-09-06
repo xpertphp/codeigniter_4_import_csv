@@ -1,0 +1,40 @@
+CRITICAL - 2021-08-27 12:33:55 --> syntax error, unexpected ']'
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-27 12:34:31 --> syntax error, unexpected ']'
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-27 12:34:42 --> syntax error, unexpected ']'
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-27 12:35:06 --> syntax error, unexpected ']'
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-27 12:36:26 --> syntax error, unexpected ']'
+#0 D:\xampp\htdocs\ci4_demo\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('student')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('student')
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
